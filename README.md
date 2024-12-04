@@ -34,23 +34,12 @@ CSS: For styling and ensuring responsiveness.
 
 JavaScript: For interactivity, including dark/light mode and accordion functionality.
 
-### How to Use
+## Setup and Usage
 
-Clone the repository:
-
-git clone [repository-url](https://github.com/utkyfact/coffee-shop-project/)]
-
-Navigate to the project folder:
-
+### 1. Clone the Repository
+```bash
+git clone https://github.com/utkyfact/coffee-shop-project.git
 cd coffee-shop-project
-
-Open the project on a live server or directly open the index.html file in your browser.
-
-Future Enhancements
-
-Add animations to the slider for a more dynamic experience.
-
-Integrate a backend to handle customer queries from the Contact page.
 
 Expand the Menu page with category filters for easier navigation.
 
