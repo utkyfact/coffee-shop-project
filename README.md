@@ -41,8 +41,3 @@ JavaScript: For interactivity, including dark/light mode and accordion functiona
 git clone https://github.com/utkyfact/coffee-shop-project.git
 cd coffee-shop-project
 
-Expand the Menu page with category filters for easier navigation.
-
-Acknowledgments
-
-Thank you for visiting our coffee shop project. We hope you enjoy the experience!
