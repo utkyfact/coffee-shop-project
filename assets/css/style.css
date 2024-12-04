@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Quicksand/static/Quicksand-Medium.ttf');
+  }
+}
+
+.animate{
+  animation: shake 0.5s ease-in;
+}
+
+@keyframes shake {
+  0%,100%{
+    transform: translateX(0);
+  }
+  20%,60%{
+    transform: translateX(-10px);
+  }
+  40%,80%{
+    transform: translateX(10px);
+  }
+}
