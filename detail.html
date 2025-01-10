@@ -15,16 +15,6 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                    },
-                    keyframes: {
-                        shake: {
-                            '0%,100%': { transform: 'translateX(0)' },
-                            '20%,60%': { transform: 'translateX(-10px)' },
-                            '40%,80%': { transform: 'translateX(10px)' }
-                        }
-                    },
-                    animation: {
-                        shake: 'shake 0.7s ease-in-out infinite',
                     }
                 }
             }
@@ -49,13 +39,13 @@
                 <div id="menu" class="md:block hidden">
                     <ul
                         class="flex  md:flex-row flex-col md:static absolute top-24 bg-gray-100 dark:bg-gray-800 w-full z-10  left-0 md:items-center md:gap-5 gap-2 p-2 items-end">
-                        <li class="hover:scale-110 duration-300">
-                            <a href="/index.html">Anasayfa</a>
+                        <li class=" hover:scale-110 duration-300">
+                            <a href="/">Anasayfa</a>
                         </li>
                         <li class="hover:scale-110 duration-300">
                             <a href="/hakkimizda.html">Hakkımızda</a>
                         </li>
-                        <li class="hover:scale-110 duration-300 text-amber-900 dark:text-amber-600 ">
+                        <li class="hover:scale-110 duration-300">
                             <a href="/iletisim.html">Iletişim</a>
                         </li>
                         <li class="hover:scale-110 duration-300">
@@ -97,51 +87,18 @@
                         </svg>
                     </div>
 
-
-
-
                 </div>
             </nav>
         </header>
 
 
-        <main  >
-
-            <section class="container mx-auto my-16">
-
-                <div class="flex md:flex-row flex-col  items-center gap-10 w-full h-full">
+        <main class="min-h-[calc(100dvh-300px)] py-5">
 
 
-                    <a href="tel:+905315310000" class="w-full h-full block">
+            <div class="grid grid-cols-12 container mx-auto gap-10 items-center justify-center wrapper">
+                
+            </div>
 
-                        <div class="group shadow-md w-full p-10 rounded-md h-[450px] flex flex-col justify-center items-center gap-5 bg-gray-100 dark:bg-gray-800 dark:text-gray-50">
-
-                            <span class="group-hover:animate-shake">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="currentColor" class="size-9">
-                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-                                </svg>
-
-                            </span>
-                            <p class="text-2xl">Bizimle iletsime gec</p>
-
-                            <p class="text-xl">
-                                0531 531 0000
-                            </p>
-
-                        </div>
-                    </a>
-
-                    <div class="w-full">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230.57554356860564!2d27.18591645213701!3d38.42701699321734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b96353b542857b%3A0xe522befb7f056da6!2sHello%20World%20Yaz%C4%B1l%C4%B1m%20ve%20Akademi!5e0!3m2!1str!2str!4v1733164946553!5m2!1str!2str"
-                             height="450" style="border:0;" class="w-full rounded-md" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-
-            </section>
         </main>
 
 
@@ -292,13 +249,6 @@
                             d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
                     </svg>
                 </div>
-
-
-
-
-
-
-
             </div>
         </footer>
 
@@ -307,10 +257,10 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 
 
     <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/detail.js"></script>
 
 </body>
 
